@@ -1,0 +1,173 @@
+/* Main Container */
+main.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fitur Page Header */
+main header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+main header h1 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 0.5rem;
+}
+
+main header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 0.5rem;
+}
+
+/* Text Paragraphs */
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Profile Card for Psychologists */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.profile-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.profile-card .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.profile-card .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Form Styling */
+.form-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.form-card label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #0073e6;
+}
+
+.form-card input, 
+.form-card select, 
+.form-card textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-card .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #0073e6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-card .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Article Cards */
+.article-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.article-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.article-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.article-card .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.article-card .btn:hover {
+    background-color: #005bb5;
+}
